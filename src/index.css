@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+   themes: light --default;
+ }
+
+ @theme {
+    /*Colors*/
+        --color-adBackground: #38CB89;
+        --color-adBorder: #000;
+    /*Fonts*/
+        --font-Inter:"Inter", sans-serif;
+        --font-Space-Grotesk:"Space Grotesk", sans-serif;
+        --font-Poppins:"Poppins", sans-serif;
+}
+
+@utility row {
+    @apply flex flex-row items-center gap-2;
+}
+
+@utility col {
+    @apply flex flex-col items-center gap-2;
+}
+
+@layer base {
+    body    {
+        
+    }
+    a   {
+        cursor: pointer;
+
+    }
+    .textShadow_y{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 16.06%, #FFF 86.9%, rgba(255, 255, 255, 0.00) 106.25%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
