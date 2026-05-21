@@ -1,5 +1,6 @@
 import React , { useState } from 'react';
 import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 import './App.css';
 import router from '../../router';
 import { Router, RouterProvider } from 'react-router-dom';
