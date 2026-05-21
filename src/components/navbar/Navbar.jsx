@@ -20,7 +20,7 @@ function Navbar() {
                             <div class="menu bg-base-200 min-h-full w-80 p-6">
                                 <div class="up mb-auto">
                                 <div class="row justify-between">
-                                    <a class="btn btn-ghost text-xl"><img class="w-20" src="./src/assets/logo.svg"/></a>
+                                    <Link to="/" class="btn btn-ghost text-xl"><img class="w-20" src="./src/assets/logo.svg"/></Link>
                                     <label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay btn btn-ghost"><img class="w-7"  src="./src/assets/icons/close.svg"/></label>
                                 </div>
                                 <div class="search p-4">
@@ -36,7 +36,7 @@ function Navbar() {
                                     <li><a href="#" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">pizza</a></li>
                                     <li><a href="#" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">pasta</a></li>
                                     <li><a href="#" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">salad</a></li>
-                                    <li><a href="ContactUs.html" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">About Us</a></li>
+                                    <li><Link to="aboutus" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">About Us</Link></li>
                                     <li><a href="product.html" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Subscription policy</a></li>
                                 </ul>
                                 </div>
@@ -51,7 +51,7 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <a href="index.html" class="btn btn-ghost text-xl"><img class="w-25" src="./src/assets/logo.svg"/></a>
+                    <Link to="/" class="btn btn-ghost text-xl"><img class="w-25" src="./src/assets/logo.svg"/></Link>
                 </div>
                 <div class="navbar-center">
                     <ul class="row gap-10 max-lg:hidden">
@@ -59,7 +59,7 @@ function Navbar() {
                         <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">pizza</a></li>
                         <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">pasta</a></li>
                         <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">salad</a></li>
-                        <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">About Us</a></li>
+                        <li><Link to="aboutus" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">About Us</Link></li>
                         <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">Subscription policy</a></li>
                     </ul>    
                 </div>
