@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Recipe from './components/recipe/Recipe';
 import MainLayout from './layout/MainLayout';
 import AboutUs from './components/about_us/AboutUs';
+import Policy from './components/policy/Policy';
 const router = createBrowserRouter(
     [
         {
@@ -17,7 +18,11 @@ const router = createBrowserRouter(
                 {
                     path: "aboutus",
                     element:<AboutUs />
-                }
+                },
+                {
+                    path: "policy",
+                    element:<Policy />
+                },
             ]
 
         },

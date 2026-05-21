@@ -14,7 +14,7 @@ function Footer() {
                     <ul className="row gap-10 max-md:col max-md:gap-8">
                         <li><Link to="/" className="font-Inter text-[14px]/[22px] font-normal text-[#FEFEFE]">Home</Link></li>
                         <li><a href="shop.html" className="font-Inter text-[14px]/[22px] font-normal text-[#FEFEFE] text-nowrap">About Us</a></li>
-                        <li><a href="product.html" className="font-Inter text-[14px]/[22px] font-normal text-[#FEFEFE] text-nowrap">Subscription policy</a></li>
+                        <li><Link to="policy" href="product.html" className="font-Inter text-[14px]/[22px] font-normal text-[#FEFEFE] text-nowrap">Subscription policy</Link></li>
                     </ul> 
                 </div>
                 <div className="row justify-between py-4 max-md:col max-md:gap-8">

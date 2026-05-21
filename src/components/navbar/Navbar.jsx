@@ -37,7 +37,7 @@ function Navbar() {
                                     <li><a href="#" className="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">pasta</a></li>
                                     <li><a href="#" className="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">salad</a></li>
                                     <li><Link to="aboutus" className="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">About Us</Link></li>
-                                    <li><a href="product.html" className="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Subscription policy</a></li>
+                                    <li><Link to="policy" href="product.html" className="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Subscription policy</Link></li>
                                 </ul>
                                 </div>
                                 <div className="bot">
@@ -60,7 +60,7 @@ function Navbar() {
                         <li><a href="#" className="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">pasta</a></li>
                         <li><a href="#" className="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">salad</a></li>
                         <li><Link to="aboutus" className="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">About Us</Link></li>
-                        <li><a href="#" className="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">Subscription policy</a></li>
+                        <li><Link to="policy" href="#" className="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275] hover:text-black transition-all delay-125">Subscription policy</Link></li>
                     </ul>    
                 </div>
                 <div className="navbar-end gap-0.5">
