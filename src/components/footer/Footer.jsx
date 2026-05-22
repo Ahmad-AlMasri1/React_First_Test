@@ -21,14 +21,14 @@ function Footer() {
                     <div className="row gap-7 max-md:col max-md:gap-7">
                         <p className="font-Poppins text-[#E8ECEF] text-[12px]/[20px] font-normal">Copyright © 2023 3legant. All rights reserved</p>
                         <div className="row gap-7  max-md:order-first">
-                            <a href="#" className="font-Poppins text-[#FEFEFE] text-[12px]/[20px] font-semibold">Privacy Policy</a>
-                            <a href="#" className="font-Poppins text-[#FEFEFE] text-[12px]/[20px] font-semibold">Terms of Use</a>
+                            <Link to="" className="font-Poppins text-[#FEFEFE] text-[12px]/[20px] font-semibold">Privacy Policy</Link>
+                            <Link to="" className="font-Poppins text-[#FEFEFE] text-[12px]/[20px] font-semibold">Terms of Use</Link>
                         </div>
                     </div>
                     <div className="row gap-6 max-md:order-first">
-                        <a href="#"><img src="./src/assets/icons/footer/instagram.svg"/></a>
-                        <a href="#"><img src="./src/assets/icons/footer/Vector 2998.svg"/></a>
-                        <a href="#"><img src="./src/assets/icons/footer/youtube.svg"/></a>
+                        <Link to=""><img src="./src/assets/icons/footer/instagram.svg"/></Link>
+                        <Link to=""><img src="./src/assets/icons/footer/Vector 2998.svg"/></Link>
+                        <Link to=""><img src="./src/assets/icons/footer/youtube.svg"/></Link>
                     </div>
                 </div>
             </div>
