@@ -65,7 +65,7 @@ function Navbar() {
                 </div>
                 <div className="navbar-end gap-0.5">
                     <button className="btn btn-ghost btn-circle">
-                        <Link to=""><img src="./src/assets/icons/search 02.svg"/></Link>
+                        <Link to="search"><img src="./src/assets/icons/search 02.svg"/></Link>
                     </button>
                     <button className="btn btn-ghost btn-circle">
                         <Link to=""><img src="./src/assets/icons/user-circle.svg"/></Link>

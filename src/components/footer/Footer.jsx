@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 function Footer() {
   return (
-    <>
+    <div>
         <footer className="bg-neutral pt-20 pb-8">
             <div className="container mx-auto px-2 max-md:px-8">
                 <div className="md:row max-md:col justify-between pb-12.5 border-b border-b-[#6C7275]">
@@ -33,7 +33,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    </>
+    </div>
   )
 }
 

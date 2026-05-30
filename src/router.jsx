@@ -7,6 +7,7 @@ import Policy from './components/policy/Policy';
 import Pizza from './components/pizza/Pizza';
 import Pasta from './components/pasta/Pasta';
 import Salad from './components/salad/Salad';
+import Search from './components/search/Search';
 const router = createBrowserRouter(
     [
         {
@@ -39,7 +40,10 @@ const router = createBrowserRouter(
                     path: "salad",
                     element:<Salad />
                 },
-                
+                {
+                    path: "search",
+                    element:<Search />
+                }
             ]
 
         },
